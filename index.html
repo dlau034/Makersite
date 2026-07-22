@@ -111,13 +111,13 @@ h2.dsp{
 .nav .btn{padding:.62rem 1.25rem;font-size:.82rem}
 .menu-btn{
   display:grid;place-items:center;width:42px;height:42px;border-radius:10px;
-  background:none;border:1px solid var(--line-d);cursor:pointer;gap:3px;
+  background:none;border:1px solid var(--line-d);cursor:pointer;gap:2px;padding-block:10px;
 }
 .menu-btn span{display:block;width:18px;height:2px;border-radius:2px;background:var(--paper);transition:transform .45s var(--ease),opacity .25s ease .1s}
 body.menu-open{overflow:hidden}
-body.menu-open .menu-btn span:nth-child(1){transform:translateY(5px) rotate(45deg)}
+body.menu-open .menu-btn span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
 body.menu-open .menu-btn span:nth-child(2){opacity:0;transform:scaleX(0)}
-body.menu-open .menu-btn span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}
+body.menu-open .menu-btn span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
 .menu{
   position:fixed;inset:0;z-index:80;background:rgba(11,11,15,.97);
   display:grid;place-items:center;visibility:hidden;opacity:0;

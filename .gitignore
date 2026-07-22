@@ -1,0 +1,8 @@
+# Local AI CLI config
+.qwen/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
